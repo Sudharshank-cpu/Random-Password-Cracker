@@ -1,15 +1,14 @@
-import string
-import itertools
-import random
-import os
-import sys
-import time
+import string, itertools, random, os, sys, time, signal
 print("NOTE: This Password Cracking will take longer. If you put strong password, You will recieve longer time to crack")
 userPwd=input("Enter Password to begin Cracking your Password: ")
 pwd=list(string.ascii_letters+string.digits+'@#$%&*:;')
 pw=''
 print("Cracking Password.....")
 start_cpu,c=time.process_time(),0
+def handler(signum, frame):
+    print("Signal handler called with signal", signum)
+    exit(0)
+signal.signal(signal.SIGINT, handler)
 while pw!=userPwd:
    pw=''
    for _ in range(len(userPwd)):
