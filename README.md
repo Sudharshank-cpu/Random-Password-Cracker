@@ -1,6 +1,16 @@
 # Random Password Cracker
 This project cracks created password in Brute Force method.
 
+# Table of Contents
+1. Introduction
+2. Features
+3. Installation
+4. Usage
+5. Contribution
+6. License
+7. Acknowledgement
+8. Warning
+
 ## Introduction
 The Random Password Cracker is a Python-based tool designed to demonstrate the process of cracking random passwords using brute force methods. This project is intended for educational purposes to understand the vulnerabilities of weak passwords and the importance of strong password practices.
 
@@ -39,4 +49,5 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 Inspired by various password cracking tools and educational resources on cybersecurity.
 
 ## Warning
-I made only for informational sharing.
+- I made only for informational sharing.
+- Use my code. But, Don't Abuse it.
