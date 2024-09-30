@@ -1,13 +1,42 @@
-**Random Password Cracker**
-<h4>Important Note</h4>
-<ul type="*"><li>This Script provides infinite loop to crack Provided Password</li>
-<li>Use this Script legally!</li></ul>
-<h4>Used Modules</h4>
-<ul><li>String</li>
-  <li>Itertools</li>
-  <li>random</li>
-  <li>os</li>
-  <li>sys</li>
-  <li>time</li></ul>
-<h4>How to Run this Script</h4>
-<ol type="ol"><li>Run **python RandomPasswordGenerator.py**</li></ul>
+# Random Password Cracker
+This project cracks created password in Brute Force method.
+
+## Introduction
+The Random Password Cracker is a Python-based tool designed to demonstrate the process of cracking random passwords using brute force methods. This project is intended for educational purposes to understand the vulnerabilities of weak passwords and the importance of strong password practices.
+
+## Features
+- Brute force password cracking
+- Customizable character sets
+- Adjustable password length
+- Real-time progress display
+
+## Installation
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Sudharshank-cpu/Random-Password-Cracker.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd Random-Password-Cracker
+    ```
+
+## Usage
+1. To run the Random Password Cracker, use the following command:
+    ```bash
+    python RandomPasswordCracker.py
+    ```
+2. You can customize the character set and password length by modifying the script parameters.
+3. To close this during process, Press <code>Ctrl + C</code> to Interrupt and Exit from process.
+
+## Contribution
+- Contributions are welcome! Please fork the repository and create a pull request with your changes.
+- Ensure your code follows the project’s coding standards and includes appropriate tests.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+## Acknowledgements
+Inspired by various password cracking tools and educational resources on cybersecurity.
+
+## Warning
+I made only for informational sharing.
