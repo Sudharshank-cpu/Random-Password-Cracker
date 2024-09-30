@@ -51,3 +51,9 @@ Inspired by various password cracking tools and educational resources on cyberse
 ## Warning
 - I made only for informational sharing.
 - Use my code. But, Don't Abuse it.
+
+## Screenshot
+By using only from string.ascii_lowercase at pwd(as Password Directory)
+<img src="screenshot/image.png" alt="Image will come soon"/>
+
+ ary
